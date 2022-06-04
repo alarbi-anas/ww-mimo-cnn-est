@@ -30,12 +30,12 @@ if __name__ == '__main__':
     save_parameters = False
     save_training_error = False
 
-    n_epochs = 250
-    n_steps_per_epoch = 40
-    n_learning_batche_size = 20
+    n_epochs = 5
+    n_steps_per_epoch = 2
+    n_learning_batche_size = 2
 
     n_eval_batches = 2
-    n_eval_batche_size = 20
+    n_eval_batche_size = 2
 
     n_path = 3
     snrs = [-15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 15.0, 20.0]
