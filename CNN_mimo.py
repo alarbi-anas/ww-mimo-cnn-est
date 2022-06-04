@@ -47,8 +47,8 @@ if __name__ == '__main__':
     n_pilots = 2
 
     use_other_estimators = False
-    use_genie_estimators = False
-    use_cnn_estimators = True
+    use_genie_estimators = True
+    use_cnn_estimators = False
     plot_axis = "snr"
 
     transforms = 'fft'
